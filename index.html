@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <div id="ageGateModal">
+        <div id="ageGateContent">
+            <h2>You must be 18 or older to enter.</h2>
+            <div id="age-form">
+                <input id="ageInput" type="text" placeholder="How old are you?"/>
+                <button
+                    onclick='if(document.getElementById("ageInput").value >= 18) {document.getElementById("ageGateModal").style.display = "none";} else if (ageInput < 18){alert("You must be 18 or older to enter.")}else {alert("You must be 18 or older to enter.")}  
+                    
+
+                    '>Submit</button>
+            </div>
+    </div>
+    
+
+
+
+
+
+<!--================== DO NOT MODIFY ANYTHING BELOW =================-->
+
+
+
+<!--================== DO NOT MODIFY ANYTHING BELOW =================-->
+
+
+
+
+
+
+<!--================== DO NOT MODIFY ANYTHING BELOW =================-->
+
+
+<!--================== DO NOT MODIFY ANYTHING BELOW =================-->
+
+<!--================== DO NOT MODIFY ANYTHING BELOW =================-->
+
+
+
+<!--================== DO NOT MODIFY ANYTHING BELOW =================-->
+
+
+
+
+
+
+
+
+
+
+<!--================== DO NOT MODIFY ANYTHING BELOW =================-->
+    </div>
+    <div id='header'>
+        <img id="headerTitle" src="https://images.squarespace-cdn.com/content/v1/5d7e6d9385e96b5844422106/f532278d-e1cc-44e7-98a8-2366a25ef252/transparent+logo+%281%29.png"/>    
+    </div>
+    <div id="contentHeader">
+        <h1>free pussycat's</h1>
+    </div>
+    <div id="content">
+        <div class='thumbnail'>
+            <img src="assets/cat1.jpg" class="thumbnailImage">
+        </div>
+        <div class='thumbnail'>
+            <img src="assets/cat2.jpg" class="thumbnailImage">
+        </div>
+        <div class='thumbnail'>
+            <img src="assets/cat3.jpg" class="thumbnailImage">
+        </div>
+        <div class='thumbnail'>
+            <img src="assets/cat4.jpg" class="thumbnailImage">
+        </div>
+        <div class='thumbnail'>
+            <img src="assets/cat5.jpg" class="thumbnailImage">
+        </div>
+        <div class='thumbnail'>
+            <img src="assets/cat6.jpg" class="thumbnailImage">
+        </div>
+        <div class='thumbnail'>
+            <img src="assets/cat7.jpg" class="thumbnailImage">
+        </div>
+        <div class='thumbnail'>
+            <img src="assets/cat8.jpg" class="thumbnailImage">
+        </div>
+        <div class='thumbnail'>
+            <img src="assets/cat9.jpg" class="thumbnailImage">
+        </div>
+        <div class='thumbnail'>
+            <img src="assets/cat10.jpg" class="thumbnailImage">
+        </div>
+        <div class='thumbnail'>
+            <img src="assets/cat11.jpg" class="thumbnailImage">
+        </div>
+        <div class='thumbnail'>
+            <img src="assets/cat12.jpg" class="thumbnailImage">
+        </div>
+        <div class='thumbnail'>
+            <img src="assets/cat13.jpg" class="thumbnailImage">
+        </div>
+        <div class='thumbnail'>
+            <img src="assets/cat14.jpg" class="thumbnailImage">
+        </div>
+    </div>
+</body>
+
+
+<style>
+    body{
+        background-color: rgb(26, 250, 18);
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        border: 1px solid rgb(0, 0, 0);
+    }
+
+    #ageGateModal {
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #00da12;
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+        backdrop-filter: blur(20px); /* Add a blur effect to the background */
+    }
+
+    #ageGateContent {
+        background-color: #fefefe;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 30vh;
+        height: 30vh;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        background-color: gray;
+        animation-name: animatetop;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        animation-duration: 0.4s;
+        
+    }
+    #ageGateContent h2 {
+        text-align: center;
+    }
+    #age-form{
+        text-align: center;
+        align-items: center;
+    } 
+    #header {
+        margin-top: 2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 3px solid purple; */
+    }
+    #headerTitle {
+        display: inline-block;
+        width: 35%;
+    }
+    #logo {
+        /* border: 3px solid red; */
+        width: 15%;
+        position: absolute;
+        left: 3%;
+        display: inline-block;
+    }
+    #contentHeader {
+        margin-top: 3%;
+        /* border: 3px solid red; */
+        display: flex;
+        justify-content: center;
+    }
+    #contentHeader h1 {
+        display: inline-block;
+        margin: 0;
+    }
+    #content {
+        /* border: 3px solid black; */
+        margin-top: 3%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .thumbnail{
+        border: 3px solid palegreen;
+        display: flex;
+        flex-direction: column;
+        width: 20vh;
+        height: 30vh;
+        margin-top: 1%;
+        margin-bottom: 2%;
+        margin-right: 1%;
+        margin-left: 1%;
+
+
+    }
+    .thumbnail img {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+
+</html>
